@@ -2,6 +2,9 @@
 
 DES Cipher is a from-scratch, browser-based implementation of the **Data Encryption Standard (DES)**, built for a Cryptography & Computer Network Security course. Every permutation table, S-box, and Feistel round is hand-coded in Python — no cryptographic libraries are used — and the entire cipher runs client-side in the browser via WebAssembly.
 
+## Visit The Live Site at:
+https://aintunoo.github.io/DES-TOOLS/
+
 ## 🎯 Key Features
 
 - **Full DES Implementation**: Initial Permutation (IP), Final Permutation (FP), Expansion (E), Permutation (P), PC-1/PC-2 key permutations, and all 8 S-boxes coded from first principles.
@@ -66,7 +69,7 @@ DES Cipher is a from-scratch, browser-based implementation of the **Data Encrypt
 
 📦 Installation
 
-Clone the repository: https://github.com/AintUnoo/DES-TOOLS.git
+## Clone the repository: https://github.com/AintUnoo/DES-TOOLS.git
 
 ⚠️ Security Note
 
