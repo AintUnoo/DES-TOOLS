@@ -66,9 +66,7 @@ DES Cipher is a from-scratch, browser-based implementation of the **Data Encrypt
 
 📦 Installation
 
-Clone the repository:
-
-bashgit clone https://github.com/AintUnoo/DES-TOOLS.git
+Clone the repository: https://github.com/AintUnoo/DES-TOOLS.git
 
 ⚠️ Security Note
 
