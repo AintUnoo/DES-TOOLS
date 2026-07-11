@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DES Cipher — Cryptography & Network Security Assignment 1</title>
+  <title>DES Cipher — Cryptography & Network Security Project</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Syne:wght@400;700;800&display=swap" rel="stylesheet" />
   <script src="https://cdn.jsdelivr.net/pyodide/v0.25.0/full/pyodide.js"></script>
@@ -561,7 +561,7 @@
   ============================================================ -->
   <div id="page-app" class="page active">
     <div class="hero">
-      <div class="hero-badge">Cryptography &amp; Computer Network Security — Assignment 1</div>
+      <div class="hero-badge">Cryptography &amp; Computer Network Security — Project </div>
       <h1>DES Block Cipher<br/><em>Encryption &amp; Decryption</em></h1>
       <p>A from-scratch implementation of the Data Encryption Standard (DES). No crypto libraries — every permutation, S-box, and Feistel round coded by hand.</p>
 
@@ -636,17 +636,17 @@
     <div class="about-page">
       <div class="about-header">
         <div class="assign-tag">Cryptography &amp; Computer Network Security</div>
-        <h1>Assignment <span>01</span></h1>
+        <h1>About <span>Project</span></h1>
         <p class="assign-sub">DES Block Cipher — Text Encryption &amp; Decryption Web Application</p>
         <p>A fully hand-implemented Data Encryption Standard (DES) cipher presented as an interactive web tool. No cryptographic libraries were used — every permutation table, S-box lookup, Feistel round, and key schedule was written from scratch in Python.</p>
       </div>
 
       <div class="team-grid">
 
-        <!-- Clark Kevin -->
+        <!-- AintUnoo -->
         <div class="team-card">
-          <div class="team-avatar">CK</div>
-          <div class="team-name">Clark Kevin</div>
+          <div class="team-avatar">AU</div>
+          <div class="team-name">AintUnoo</div>
           <div class="team-role">// DES Core Algorithm</div>
           <div class="team-desc">
             Responsible for implementing the heart of the DES cipher engine from first principles.
@@ -660,10 +660,10 @@
           </div>
         </div>
 
-        <!-- Mohameden Sidi Ahmed -->
+        <!-- mrfoolakamrworld -->
         <div class="team-card">
-          <div class="team-avatar">MS</div>
-          <div class="team-name">Mohameden Sidi Ahmed</div>
+          <div class="team-avatar">MW</div>
+          <div class="team-name">mrfoolakamrworld</div>
           <div class="team-role">// Key Scheduling &amp; Integration</div>
           <div class="team-desc">
             Led the DES key schedule implementation and the Python–browser runtime integration.
@@ -677,10 +677,10 @@
           </div>
         </div>
 
-        <!-- Mohamed Sinaj -->
+        <!-- Sinaj -->
         <div class="team-card">
-          <div class="team-avatar">MN</div>
-          <div class="team-name">Mohamed Sinaj</div>
+          <div class="team-avatar">MS</div>
+          <div class="team-name">Sinaj</div>
           <div class="team-role">// UI/UX &amp; Frontend</div>
           <div class="team-desc">
             Designed and built the entire web interface, user experience, and input/output handling.
@@ -697,14 +697,14 @@
       </div><!-- /team-grid -->
 
       <div class="about-section">
-        <h3>Assignment Brief — What is DES?</h3>
+        <h3>Project Brief — What is DES?</h3>
         <p>The Data Encryption Standard (DES) is a symmetric-key block cipher standardised by NIST in 1977 (FIPS PUB 46). It operates on 64-bit data blocks using a 56-bit effective key (supplied as 64 bits with 8 ignored parity bits). The algorithm uses a Feistel network structure with 16 identical rounds, where the same f-function is applied repeatedly with different subkeys derived from the original key.</p>
         <p>Although DES is now considered cryptographically weak due to its short key length (vulnerable to exhaustive brute-force search), it remains the canonical example for teaching classical symmetric encryption concepts: confusion via S-boxes, diffusion via permutations, and the key schedule mechanism.</p>
       </div>
 
       <div class="about-section">
         <h3>Implementation Approach</h3>
-        <p>Per the assignment constraint, no DES or cryptographic libraries were used. The entire cipher is implemented in Python running client-side via the Pyodide WebAssembly runtime. The codebase is organised into clearly separated modules: permutation tables, bit utilities, padding, key schedule, the Feistel function, block-level encrypt/decrypt, multi-block ECB handler, and the key generator.</p>
+        <p>Per the project constraint, no DES or cryptographic libraries were used. The entire cipher is implemented in Python running client-side via the Pyodide WebAssembly runtime. The codebase is organised into clearly separated modules: permutation tables, bit utilities, padding, key schedule, the Feistel function, block-level encrypt/decrypt, multi-block ECB handler, and the key generator.</p>
         <p>Ciphertext is output as uppercase hexadecimal, and input text is UTF-8 encoded then PKCS#5 padded before encryption — ensuring correct handling of any text length.</p>
         <div class="tech-pills">
           <span class="tech-pill hl">Python (Pyodide)</span>
@@ -737,7 +737,7 @@
        FOOTER
   ============================================================ -->
   <div class="footer-note">
-    Cryptography &amp; Computer Network Security — <span>Assignment 01</span> · Clark Kevin · Mohameden Sidi Ahmed · Mohamed Sinaj
+    Cryptography &amp; Computer Network Security — <span>Project </span> · AintUnoo · mrfoolakamrworld · Sinaj
   </div>
 
   <!-- ============================================================
