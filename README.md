@@ -64,10 +64,16 @@ DES Cipher is a from-scratch, browser-based implementation of the **Data Encrypt
 4. Enter plaintext (or hex ciphertext) and click **Run DES**.
 5. Copy or save the result, and optionally open **Show Steps** to inspect the full internal trace of the algorithm.
 
-## ⚠️ Security Note
+📦 Installation
 
-DES uses a 56-bit effective key length and is no longer considered cryptographically secure against modern brute-force attacks. This project is intended for **educational purposes** — to demonstrate the mechanics of a classical symmetric block cipher — and should not be used to protect real data.
+Clone the repository:
 
-## 📖 Reference
+bashgit clone https://github.com/AintUnoo/DES-TOOLS.git
 
-FIPS PUB 46-3, *Data Encryption Standard (DES)*, National Institute of Standards and Technology.
+⚠️ Security Note
+
+DES uses a 56-bit effective key length and is no longer considered cryptographically secure against modern brute-force attacks. This project is intended for educational purposes — to demonstrate the mechanics of a classical symmetric block cipher — and should not be used to protect real data.
+
+📖 Reference
+
+FIPS PUB 46-3, Data Encryption Standard (DES), National Institute of Standards and Technology.
